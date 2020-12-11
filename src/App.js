@@ -1,25 +1,48 @@
-import logo from './logo.svg';
+import React from 'react'; 
 import './App.css';
+import {BrowserRouter as Router, } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar'
+import NavbarBrand from 'react-bootstrap/NavbarBrand'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Daniels <code>src/App.js</code> Personal Website - in progress.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(props){
+    super(props)
+    this.state ={
+      title: "Daniel Madera",
+      headerlinks: [
+        { title: "Home", path: '/' },
+        { title: "About", path: '/about' },
+        { title: "Contact", path: '/contact' }
+      ],
+      home: {
+        title: 'head title',
+        subTitle: 'body',
+        text: 'closing',
+      },
+      about: {
+        title: 'about me'
+      },
+    contact: {
+        title: 'Lets Chat',
+      }
+    }
+  }
+  render(){
+    return (
+      <Router>
+        <Container className="p-0" fluid ={true}>
+
+          <Navbar className = "border-bottom">
+            <Navbar.Brand>Daniels Website</Navbar.Brand>
+          </Navbar>
+        </Container>
+
+      </Router>
+    )  
+  }
+
 }
 
 export default App;
