@@ -8,7 +8,7 @@ class Carousel extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            itmes:[
+            items:[
                 {
                     id: 0,
                     title: 'Projects',
@@ -27,6 +27,22 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 2,
+                    title: 'Personal',
+                    subTitle: 'check The life in my work life balance',
+                    imgSrc:"",
+                    link: 'https://github.com/dmadera0',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Personal',
+                    subTitle: 'check The life in my work life balance',
+                    imgSrc:"",
+                    link: 'https://github.com/dmadera0',
+                    selected: false
+                },
+                {
+                    id: 4,
                     title: 'Personal',
                     subTitle: 'check The life in my work life balance',
                     imgSrc:"",

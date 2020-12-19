@@ -7,4 +7,4 @@ function Card(props){
     )
 }
 
-export defaut Card;
+export default Card;
