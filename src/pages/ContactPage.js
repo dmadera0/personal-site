@@ -2,6 +2,7 @@ import React from 'react'
 import Jumbo from '../components/Jumbo'
 import Content from '../components/Content'
 import Form from 'react-bootstrap/Form'
+import Button from 'react-bootstrap/Button'
 class ContactPage extends React.Component{
 
     constructor(props){
@@ -15,12 +16,24 @@ class ContactPage extends React.Component{
             
             }
     }
+
+    handleChange = (event)=> {
+    console.log(event);
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState(
+        {
+            [name]: value
+        })
+}
     render(){
         return(
             <div>
                 <Jumbo title={this.props.title} />
             <Content>
-                <Form>
+                <Form onSubmit={this.handleSubmit}>
                     <Form.Group>
                         <Form.Label htmlFor="full-name">Full Name</Form.Label>
                         <Form.Control id="full-name" name="name" type= "text" value={this.state.name} onChange={this.handleChange}/>
@@ -39,6 +52,13 @@ class ContactPage extends React.Component{
                     </Form.Group>
                 </Form>
 
+                <Button className="d-inline-block" variant='primary' type='submit' disabled={this.state.disabled}>
+                Send
+                </Button>
+
+
+                {this.state.emailSent === true && <p className='d-inline success-msg'>Email Sent</p>}
+                {this.state.emailSent === false && <p className='d-inline error-msg'>Email Not Sent</p>}
             </Content>
 
 
