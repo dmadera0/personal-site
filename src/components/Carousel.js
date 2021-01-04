@@ -33,22 +33,7 @@ class Carousel extends React.Component{
                     link: 'https://github.com/dmadera0',
                     selected: false
                 },
-                {
-                    id: 3,
-                    title: 'Personal',
-                    subTitle: 'check The life in my work life balance',
-                    imgSrc:"",
-                    link: 'https://github.com/dmadera0',
-                    selected: false
-                },
-                {
-                    id: 4,
-                    title: 'Personal',
-                    subTitle: 'check The life in my work life balance',
-                    imgSrc:"",
-                    link: 'https://github.com/dmadera0',
-                    selected: false
-                }
+                
             ]
         
 
