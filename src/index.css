@@ -22,3 +22,33 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+.d-card {
+  margin: 20px;
+}
+
+
+.d-card-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+
+
+.d-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+
+.d-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+
+.d-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}

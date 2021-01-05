@@ -3,6 +3,10 @@ import Card from '../components/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
+import blog from '../assets/images/curriculum-resume-pngrepo-com.png';
+import portfolio from '../assets/images/pie-chart-marketing-pngrepo-com.png';
+import resume from '../assets/images/curriculum-vitae-resume-pngrepo-com.png';
+
 class Carousel extends React.Component{
 
     constructor(props){
@@ -13,7 +17,7 @@ class Carousel extends React.Component{
                     id: 0,
                     title: 'Projects',
                     subTitle: 'check out my progress',
-                    imgSrc:"",
+                    imgSrc: portfolio,
                     link: 'https://github.com/dmadera0',
                     selected: false
                 },
@@ -21,7 +25,7 @@ class Carousel extends React.Component{
                     id: 1,
                     title: 'social',
                     subTitle: 'check social meisa is a joke',
-                    imgSrc:"",
+                    imgSrc: blog,
                     link: 'https://www.linkedin.com/in/dmadera0/',
                     selected: false
                 },
@@ -29,7 +33,7 @@ class Carousel extends React.Component{
                     id: 2,
                     title: 'Personal',
                     subTitle: 'check The life in my work life balance',
-                    imgSrc:"",
+                    imgSrc: resume,
                     link: 'https://github.com/dmadera0',
                     selected: false
                 },
