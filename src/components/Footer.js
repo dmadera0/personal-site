@@ -11,7 +11,7 @@ function Footer() {
                     Daniel Madera
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={6}>
-                    This site was made by Daniel MothaFukin Madera
+                    This site was made by Daniel Madera
                     </Col>
 
                 </Row>

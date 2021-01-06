@@ -31,10 +31,10 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 2,
-                    title: 'Personal',
-                    subTitle: 'check The life in my work life balance',
+                    title: 'Resume',
+                    subTitle: 'Qualification and Accomplishments',
                     imgSrc: resume,
-                    link: 'https://github.com/dmadera0',
+                    link: 'file:///Users/dmadera/Desktop/Daniel%20Madera%20software%20developer%20resume.pdf',
                     selected: false
                 },
                 
