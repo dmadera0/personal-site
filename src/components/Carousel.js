@@ -16,15 +16,15 @@ class Carousel extends React.Component{
                 {
                     id: 0,
                     title: 'Projects',
-                    subTitle: 'check out my progress',
+                    subTitle: 'Check Out My Progress',
                     imgSrc: portfolio,
                     link: 'https://github.com/dmadera0',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'social',
-                    subTitle: 'check social meisa is a joke',
+                    title: 'Social',
+                    subTitle: 'Learning through others',
                     imgSrc: blog,
                     link: 'https://www.linkedin.com/in/dmadera0/',
                     selected: false

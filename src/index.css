@@ -30,8 +30,8 @@ code {
 
 .d-card-image {
   border-radius: 60px;
-  width: 400px;
-  height: 480px;
+  width: 300px;
+  height: 380px;
   /* box-shadow: 0px 0px 3px 1px #ccc; */
 }
 
@@ -44,7 +44,7 @@ code {
 
 .d-card-title {
   font-size: 35px;
-  font-weight: 400px;
+  font-weight: bolder ;
   margin: 0px;
 }
 
