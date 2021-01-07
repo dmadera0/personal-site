@@ -24,8 +24,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Never Stop Learning',
-        subTitle: 'Solutions that Matter',
-        text: 'Solving problems one line of code at a time',
+        subTitle: 'Solving problems one line of code at a time',
+        text: 'Check out my work below',
       },
       about: {
         title: 'About me'

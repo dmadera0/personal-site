@@ -34,7 +34,7 @@ class Carousel extends React.Component{
                     title: 'Resume',
                     subTitle: 'Qualification and Accomplishments',
                     imgSrc: resume,
-                    link: 'file:///Users/dmadera/Desktop/Daniel%20Madera%20software%20developer%20resume.pdf',
+                    link: 'https://docs.google.com/document/d/e/2PACX-1vTsBSycUa5evYuJzyJFqvTCLnMHatwa71_PkMqBWNd3kQVpTmmDUYkExJsAPSKZRwZDqHshoak1caeH/pub',
                     selected: false
                 },
                 
